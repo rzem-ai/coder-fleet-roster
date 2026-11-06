@@ -1,0 +1,22 @@
+{
+  "name": "coder-fleet-roster",
+  "version": "0.1.0",
+  "description": "A live roster of this session's subagents: who is running, what tool each is on right now, how long it has taken, and what it answered.",
+  "types": "./types/index.d.ts",
+  "keywords": ["subagents", "agents", "roster", "pane", "status"],
+  "userConfig": {
+    "autoOpen": {
+      "type": "boolean",
+      "title": "Open the roster when a subagent starts",
+      "description": "Open the Roster pane the first time a subagent starts (it docks from 144 columns). Closing it by hand stops this for the session.",
+      "default": true
+    },
+    "toasts": {
+      "type": "string",
+      "title": "Toasts",
+      "description": "Which agent endings raise a toast: all (done and failed), failures, or off.",
+      "default": "all",
+      "options": ["all", "failures", "off"]
+    }
+  }
+}

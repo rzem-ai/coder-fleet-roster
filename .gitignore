@@ -1,0 +1,4 @@
+# written by Claude Code when the mod loads from a dev folder
+.claude-plugin/types/
+/tsconfig.json
+.DS_Store

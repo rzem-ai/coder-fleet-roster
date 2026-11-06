@@ -1,0 +1,5 @@
+{
+  "name": "coder-fleet-roster",
+  "owner": { "name": "Alex Rzem" },
+  "plugins": [{ "name": "coder-fleet-roster", "source": "./" }]
+}
